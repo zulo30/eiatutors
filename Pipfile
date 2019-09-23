@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+server = "python manage.py runserver"
+tests = "pytest"
+migrate = "python manage.py migrate"
+makemigrations = "python manage.py makemigrations"
+shell = "python manage.py shell"
+
+[dev-packages]
+flake8 = "*"
+isort = "*"
+pep8 = "*"
+autopep8 = "*"
+
+
+[packages]
+django = "*"
+django-environ = "*"
+django-webpack-loader = "*"
+
+[requires]
+python_version = "3.7"
