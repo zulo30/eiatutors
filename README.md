@@ -6,7 +6,7 @@ Primipedia es una red social dedicada a monitores y estudiantes que quieran reso
 
 ## Comenzando :rocket:
 
-### Requerimientos
+### Pre-requisitos
 * Django | [https://docs.djangoproject.com/](https://docs.djangoproject.com/)
 * Vue | [https://vuejs.org/v2/guide/installation.html](https://vuejs.org/v2/guide/installation.html)
 * Mysql Workbench | [https://www.mysql.com/products/workbench/](https://www.mysql.com/products/workbench/)
